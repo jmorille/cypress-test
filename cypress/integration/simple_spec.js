@@ -50,7 +50,7 @@ describe('My First Test', function () {
 
         describe('Click Article', function () {
             it('First Article', function () {
-                cy.get('#content-wrapper').first().get('.block-content > a').click()
+                //cy.get('#content-wrapper').first().get('.block-content > a').click()
             })
         })
 

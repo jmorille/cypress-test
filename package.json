@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:rec": "CYPRESS_BASE_URL=https://www.groupagrica.com cypress run",
+    "cypress:qa": "cypress run -e baseUrl=https://www.groupagrica.com"
   },
   "author": "",
   "license": "ISC",
