@@ -1,8 +1,13 @@
 # cypress-test
 
+
 ## Install
-```
+```bash
 $ npm i 
 $ npm run cypress:open
 ```
-Enjoy
+
+## Docker
+```bash
+$ docker build --rm -t jmorille/cypress .
+```
